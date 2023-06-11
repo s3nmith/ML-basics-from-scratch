@@ -44,6 +44,4 @@ In the implementation section, we provide a step-by-step guide to building neura
 - Calculating loss and implementing backpropagation
 - Updating weights and biases using gradient descent
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
