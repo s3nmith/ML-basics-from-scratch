@@ -6,7 +6,7 @@ This repo will have all the code that I used to learn about neural networks and 
 
 - [Basic Gradient Descent](#gradient-descent)
 - [Update Formula with Loops and Numpy](#update-formula)
-- [Basic House Prediction System](#machine-learning-basics)
+- [Basic House Prediction Model](#house-price-prediction)
 - [Activation Function](#neural-networks)
 - [Shallow Neural Network](#implementation)
 
@@ -24,7 +24,7 @@ My Implementation:
 
 
 
-## Neural Networks
+## House Price Prediction
 
 Neural networks are a key component of modern machine learning. In this section, we delve into the theory behind neural networks, including:
 
