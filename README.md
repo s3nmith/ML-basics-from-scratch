@@ -4,7 +4,7 @@ This repo will have all the code that I used to learn about neural networks and 
 
 ## Table of Contents
 
-- [Basic Gradient Descent](#gradient-descent)
+- [Basic Gradient Descent](#loss-function-and-gradient-descent)
 - [Update Formula with Loops and Numpy](#update-formula)
 - [Basic House Prediction Model](#house-price-prediction)
 - [Activation Function](#neural-networks)
