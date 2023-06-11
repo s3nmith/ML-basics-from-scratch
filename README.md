@@ -1,6 +1,6 @@
 # Machine Learning Basics from Scratch
 
-This repo will have all the code that I used to learn about neural networks and machine learning. Some implementations use no libraries and only basic mathematical operations, while others use libraries to make calculations simpler.
+This repo will have all the code that I used to learn about neural networks and machine learning. Some implementations use no libraries and only basic mathematical operations and loops, while others use libraries to make calculations simpler.
 
 ## Table of Contents
 
