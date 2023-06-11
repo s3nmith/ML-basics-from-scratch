@@ -13,9 +13,9 @@ This repo will have all the code that I used to learn about neural networks and 
 
 
 
-## Gradient-Descent
+## Loss Function and Gradient-Descent
 
-In this repository, we explore the fundamentals of machine learning and focus on implementing neural networks from scratch. Understanding the basics of machine learning and building neural networks from scratch can provide a solid foundation for working with more complex machine learning models and frameworks.
+This section is about how the learning happens and how the loss function is minimized via gradient descent.
 
 ## Update Formula
 
