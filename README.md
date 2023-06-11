@@ -4,8 +4,8 @@ This repo will have all the code that I used to learn about neural networks and 
 
 ## Table of Contents
 
-- [Basic Gradient Descent](#introduction)
-- [Update Formulas with Loops and Numpy](#getting-started)
+- [Basic Gradient Descent](#gradient-descent)
+- [Update Formula with Loops and Numpy](#update-formula)
 - [Basic House Prediction System](#machine-learning-basics)
 - [Activation Function](#neural-networks)
 - [Shallow Neural Network](#implementation)
@@ -13,18 +13,15 @@ This repo will have all the code that I used to learn about neural networks and 
 
 
 
-## Introduction
+## Gradient-Descent
 
 In this repository, we explore the fundamentals of machine learning and focus on implementing neural networks from scratch. Understanding the basics of machine learning and building neural networks from scratch can provide a solid foundation for working with more complex machine learning models and frameworks.
 
-## Getting Started
+## Update Formula
 
-To get started with this project, follow these steps:
+My Implementation:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. [Optional] Set up a virtual environment: `python -m venv env` and activate it.
-4. Open the project in your preferred IDE or editor.
+
 
 
 ## Neural Networks
