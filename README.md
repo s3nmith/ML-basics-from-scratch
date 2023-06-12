@@ -18,6 +18,19 @@ This repo will have all the code that I used to learn about neural networks and 
 This section is about how gradient descent is implemented/works. The code in UpdateWeightsandBiases file performs one step of the gradient descent algorithm. 
 It calculates the gradients and the changes to be made to the weights and the bias.
 
+The weight and bias update formula is:
+
+```math
+W_j = W_j - \alpha \frac{\partial J}{\partial W_j}
+
+b = b - \alpha \frac{\partial J}{\partial b}
+```
+Implemented as:
+```math
+W_j = W_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)}) x_j^{(i)}
+
+b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
+```
 
 
 
