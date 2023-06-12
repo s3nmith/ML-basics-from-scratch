@@ -22,13 +22,15 @@ The weight and bias update formula is:
 
 ```math
 W_j = W_j - \alpha \frac{\partial J}{\partial W_j}
-
+```
+```math
 b = b - \alpha \frac{\partial J}{\partial b}
 ```
 Implemented as:
 ```math
 W_j = W_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)}) x_j^{(i)}
-
+```
+```math
 b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
 ```
 
