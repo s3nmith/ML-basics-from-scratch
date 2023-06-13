@@ -4,8 +4,8 @@ This repo will have all the code that I used to learn about neural networks and 
 
 ## Table of Contents
 
-- [Basic Gradient Descent](#loss-function-and-gradient-descent)
-- [Update Formula with Loops and Numpy](#update-formula)
+- [Basic Gradient Descent](#gradient-descent)
+- [Cost Function](#cost)
 - [Basic House Prediction Model](#house-price-prediction)
 - [Activation Function](#neural-networks)
 - [Shallow Neural Network](#implementation)
@@ -13,13 +13,27 @@ This repo will have all the code that I used to learn about neural networks and 
 
 
 
-## Loss Function and Gradient-Descent
+## Gradient-Descent
 
-This section is about how the learning happens and how the loss function is minimized via gradient descent.
+This section is about how gradient descent is implemented/works. The code in UpdateWeightsandBiases file performs one step of the gradient descent algorithm. 
+It calculates the gradients and the changes to be made to the weights and the bias.
 
-## Update Formula
+The weight and bias update formula is:
 
-My Implementation:
+```math
+W_j = W_j - \alpha \frac{\partial J}{\partial W_j}
+```
+```math
+b = b - \alpha \frac{\partial J}{\partial b}
+```
+Implemented as:
+```math
+W_j = W_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)}) x_j^{(i)}
+```
+```math
+b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
+```
+
 
 
 
