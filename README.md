@@ -6,8 +6,6 @@ This repo will have all the code that I used to learn about neural networks and 
 
 - [Basic Gradient Descent](#gradient-descent)
 - [Cost Function](#cost)
-- [Basic House Prediction Model](#house-price-prediction)
-- [Activation Function](#neural-networks)
 - [Shallow Neural Network](#implementation)
 
 
