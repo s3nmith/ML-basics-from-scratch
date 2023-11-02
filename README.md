@@ -37,7 +37,7 @@ b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
 
 ## Implementation
 
-I build this shallow neural network from cratch using Python. The implementation covers:
+I build this shallow neural network from scratch using Python. The implementation covers:
 
 - Creating seperate Test and Training Samples
 - Variety of Activation Functions
