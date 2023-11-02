@@ -35,25 +35,15 @@ b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
 
 
 
-
-## House Price Prediction
-
-Neural networks are a key component of modern machine learning. In this section, we delve into the theory behind neural networks, including:
-
-- Neurons and activation functions
-- Feedforward and backpropagation
-- Gradient descent
-- Regularization techniques
-- Hyperparameter tuning
-
 ## Implementation
 
-In the implementation section, we provide a step-by-step guide to building neural networks from scratch using Python. The implementation covers:
+I build this shallow neural network from cratch using Python. The implementation covers:
 
-- Building a neural network architecture
-- Initializing weights and biases
+- Creating seperate Test and Training Samples
+- Variety of Activation Functions
 - Forward propagation
 - Calculating loss and implementing backpropagation
 - Updating weights and biases using gradient descent
+- Finally evaluating this "from scratch" model and making predictions with the optimized weights and biases
 
 
