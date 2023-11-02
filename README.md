@@ -40,7 +40,7 @@ b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
 I build this shallow neural network from scratch using Python. The implementation covers:
 
 - Creating seperate Test and Training Samples
-- Variety of Activation Functions
+- Testing out activation functions with my own layer architecture
 - Forward propagation
 - Calculating loss and implementing backpropagation
 - Updating weights and biases using gradient descent
