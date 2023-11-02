@@ -6,7 +6,7 @@ This repo will have all the code that I used to learn about neural networks and 
 
 - [Basic Gradient Descent](#gradient-descent)
 - [Cost Function](#cost)
-- [Shallow Neural Network](#implementation)
+- [Shallow Neural Network](#ShallowNeuralNetwork)
 
 
 
@@ -35,7 +35,7 @@ b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (h(x^{(i)}) - y^{(i)})
 
 
 
-## Implementation
+## ShallowNeuralNetwork
 
 I build this shallow neural network from scratch using Python. The implementation covers:
 
